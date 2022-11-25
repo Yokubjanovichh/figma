@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  display: block;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px 80px 200px;
+  gap: 60px;
+}
+
+.section-logo {
+  width: 600px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.pages a {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #424551;
+  transition: all 0.3s 0 linear;
+}
+
+.pages a:hover {
+  color: #ff3f3a;
+}
+
+.section-icon {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.login a {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #424551;
+  transition: all 0.3s 0 linear;
+}
+
+.login a:hover {
+  color: #ff3f3a;
+}
+
+.section-icon-btn {
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding: 0 40px;
+}
+
+.our-blog {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 80px;
+}
+
+.our-blog p:nth-child(1) {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+}
+
+.our-blog p:nth-child(2) {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+  color: #1e212c;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.svg:hover path {
+  fill: red;
+}
+
+.svg:hover {
+  color: red;
+}
+
+.toolbar {
+  padding-left: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.toolbar-main {
+  transition: all 0.3s 0 linear;
+  padding: 7px 10px;
+  border: 1px solid #fff;
+}
+
+.toolbar-main:hover {
+  border-color: #ff3f3a;
+}
+
+.blog-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 73px;
+  padding: 0px 265px;
+  gap: 30px;
+  margin-bottom: 128px;
+}
+
+.box {
+  position: relative;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box-item {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: scale(0.7);
+  background-color: #fff;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+.box-title img {
+  width: 16px;
+  height: 16px;
+}
+
+.box-title p {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #787a80;
+  gap: 8px;
+}
+
+.box-title {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.box-h {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.box-text {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin: 8px 0px 16px 0;
+}
+
+.box-link {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.box-link p {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1e212c;
+}
+
+.blog-grid-item1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  width: 525px;
+}
+
+.box3 {
+  width: 425px;
+}
+
+footer {
+  width: 100%;
+  padding: 83px 372px 60px 345px;
+  background: #1e212c;
+}
+
+.footer1 {
+  width: 279px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer1 p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 25px 0px 39px 0;
+}
+
+.footer1-links{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo{
+  width: 130px;
+}
